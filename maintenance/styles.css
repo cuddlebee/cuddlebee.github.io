@@ -1,0 +1,58 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #E8E8E8;
+    color: #3A3238;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.maintenance-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.maintenance-text {
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: 500;
+    color: rgba(58, 50, 56, 0.65);
+}
+
+.logo-main {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 3px 15px;
+}
+
+.logo-text {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3A3238;
+}
+
+.logo-symbol {
+    position: absolute;
+    width: 32px;
+    height: 15px;
+    left: 192px;
+    top: -3px;
+}
